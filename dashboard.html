@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- <style>
+	
+
+    </style> -->
+</head>
+
+<body>
+	<header class="header">
+		<!-- Calendly inline widget begin -->
+<!-- <div class="calendly-inline-widget" data-url="https://calendly.com/uidesign0005" style="min-width:320px;height:630px;"><div class="heading">
+	<h1>User Management</h1>
+</div></div> -->
+<!-- <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
+<!-- Calendly inline widget end -->
+		<!-- <div class="heading_info"> -->
+		
+		<a  data-url="https://calendly.com/uidesign0005"><img src="./img/logo.jpg"></a>
+		<div class="right_header_items">
+
+			<a href="#"><img src="./img/Avator.svg"></a>
+			<p data-url="https://calendly.com/uidesign0005">John A Deo</p>
+			<a href="#"><img src="./img/Arrow-Down.svg"></a>
+			<a href="#"><img src="./img/Help.svg"></a>
+			<a href="#" style="text-decoration: none; color: #1F95D7;">Help</a>
+		</div>
+		<!-- </div> -->
+	</header>
+	<!-- <div> -->
+	<nav class="side-navbar">
+		<div class="navigarion">
+			<ul>
+				<li><a href="#"><img src="./img/Dashboard.svg" class="edit">Dashboard</a></li>
+				<li><a href="#"><img src="./img/Analytics.svg" class="edit">Analytics </a> <img
+						src="./img/Arrow-Down.svg" width="16" height="12"></li>
+				<li><a href="#"><img src="./img/Report-icon.svg" class="contacts"> Reports</a> <img
+						src="./img/Arrow-Down.svg" width="16" height="12"></li>
+				<li><a href="#"><img src="./img/Marketing.svg" class="contacts"> Marketing</a> <img
+						src="./img/Arrow-Down.svg" width="16" height="12"></li>
+				<li><a href="#"><img src="./img/Commissions.svg" class="edit"> Commissions</a> <img
+						src="./img/Arrow-Down.svg" width="16" height="12"></li>
+				<li><a href="#"><img src="./img/documents.svg" class="edit"> Documents</a> <img
+						src="./img/Arrow-Down.svg" width="16" height="12"></li>
+				<li><a href="#"><img src="./img/Sales Tool.svg" class="edit"> Sales tools</a> <img
+						src="./img/Arrow-Down.svg" width="16" height="12"></li>
+				<li><a href="#"><img src="./img/people.svg" class="edit"> User Management</a> <img
+						src="./img/Arrow-Down.svg" width="16" height="12"></li>
+						
+				
+			</ul>
+			
+		</div>
+		<div class="impUpdates"><a href="#"><img src="./img/Important.svg" class="edit">Important Updates</a>
+			<span class="sidenavicon">4</span>
+		</div>
+	</nav>
+	<div class="main" style="
+    padding: 90px 20px 0 265px;
+">
+
+		<div class="recent-box" style="padding-left: 5px !important;">
+			<div class="recent-heading">
+				<h1>Users</h1>
+				<div class="advance-search">
+					<a href="#" class="add"><img src="./img/add-btn.svg" width="20">
+						</br><span>Add&nbsp;Offine&nbsp;Admin</span></a>
+
+					<div class="search-field">
+						<label>Search</label>
+						<div class="search-wrap">
+							<input type="search" placeholder="Search..." class="search">
+							<a href="#"><img src="./img/filter-text.svg" width="25"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<table class="table" style="background-color: white;">
+				<div class="table-head">
+					<div>
+						<!-- <ul class="icons">
+					<li>
+						<label class="checkboxes mt-2">
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+					</li> 
+					<li>
+						<a href="#">
+							<img src="pdf-red.svg"> Export PDF
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="Icon-csv.svg"> Export CSV
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="ico-excel.svg"> Export Excel
+						</a>
+					</li>
+				</ul> -->
+					</div>
+					<div >
+						<span>Show</span>
+						<select class="select mx-2">
+							<option>10</option>
+						</select>
+						<span>of 230 results</span>
+						<span class="ml-2">
+							<a href="#"><img src="./img/arrow-left.svg" height="12"></a>
+							<select class="select mx-2">
+								<option>1</option>
+							</select>
+							<a href="#"><img src="./img/arrow-right.svg" height="12"></a>
+						</span>
+					</div>
+				</div>
+				<!-- <thead> -->
+				<thead>
+					<tr style="border-bottom: 1px solid #dee2e6;">
+						<!-- <th width="30"></th> -->
+						<th width="150"style="padding-left: 20px;">First Name <img src="./img/up-down.svg" width="16" height="12"><img
+								class="filter" src="./img/Filter.svg" alt=""></th>
+						<th width="150">Last Name <img src="./img/up-down.svg" width="16" height="12"><img
+								class="filter" src="./img/Filter.svg" alt=""></th>
+						<th width="150">Primary Email<img src="./img/up-down.svg" width="16" height="12"><img
+								class="filter" src="./img/Filter.svg" alt=""></th>
+						<th width="150">Username<img src="./img/up-down.svg" width="16" height="12"><img class="filter"
+								src="./img/Filter.svg" alt=""></th>
+						<th width="150">Role<img src="./img/up-down.svg" width="16" height="12"><img class="filter"
+								src="./img/Filter.svg" alt=""></th>
+						<!-- <th width="200">Term Date <img src="caret.svg"></th> -->
+						<th width="200">Status <img src="./img/sort-alpha-down.svg" width="16" height="12"><img
+								class="filter" src="./img/Filter.svg" alt=""></th>
+						<!-- <th width="20"></th> -->
+					</tr>
+				</thead>
+				<tbody class="filter_inputs d-none">
+					<tr>
+						<!-- <th width="30"></th> -->
+						<th width="50" style="padding-left: 20px;"><input type="text" style="width:116px;height: 36px; border: #E0E1E0 1px solid;"></th>
+						<th width="100"><input type="text" style="width:113px;height: 36px;border: #E0E1E0 1px solid;"></th>
+						<th width="100"><input type="text"   style="width:139px;height: 36px;border: #E0E1E0 1px solid;"></th>
+						<th width="100"><input type="text"   style="width:110px;height: 36px;border: #E0E1E0 1px solid;"></th>
+						<th width="100"><input type="text"   style="width:90px; height: 36px;border: #E0E1E0 1px solid;"></th>
+						<!-- <th width="200">Term Date <img src="caret.svg"></th> -->
+						<th width="100"><input type="text"   style="width:143px; height: 36px;border: #E0E1E0 1px solid;"></th>
+						<!-- <th width="20"></th> -->
+					</tr>
+				</tbody>
+				<tbody>
+					<tr class="">
+						<!-- <td>
+					<label class="checkboxes">
+					  <input type="checkbox" checked>
+					  <span class="checkmark"></span>
+					</label>
+				</td> -->
+						<td style="padding-left: 20px;" >Stuart</td>
+						<td>Abrams</td>
+						<td>flatpicker@aol.com</td>
+						<td>Testuser1</td>
+						<td><span class="">Principal</span></td>
+						<td>
+							<div class="line"><span class="horizontal_line"></span>
+								<span class="horizontal_line"></span>
+								<span class="horizontal_line"></span>
+								<span class="circle circle1 Invite">1</span>
+									<div class="inviteMain d-none">
+										<div class="inviteContent">
+											
+												
+
+												<span class="Vline one"></span>
+												<span class="Vline"></span>
+												<span class="Vline"></span>
+												<span class="Vline"></span>
+												<span class="Vline"></span>
+												<span class="Vline"></span>
+												
+
+												<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="" srcset=""></span>
+												<span class="circle inviteCircle2">2</span>
+												<span class="circle inviteCircle3">3</span>
+												<span class="circle inviteCircle4">4</span>
+												<span class="circle inviteCircle5">5</span>
+												<span class="circle inviteCircle6">6</span>
+												<span class="circle inviteCircle7">7</span>
+												<div class="content">
+													<div>
+													<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span><span class="circle close">14</span>
+													<span><img src="./img/arrow up.svg" alt=""></span>
+													
+												</div>
+													<div>
+														<b style="display:block; margin: 6px 0 5px;">Invited by:</b>
+														<span style="display:block; margin: 5px 0;">14. Pedro Adao 04/15/2022 5:10 PM</span>
+														<span style="display:block; margin: 5px 0;">13. Pedro Adao 04/15/2022 5:10 PM</span>
+														<span style="display:block; margin: 5px 0;">12. Pedro Adao 04/15/2022 5:10 PM</span>
+														
+														
+														
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 20px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 22px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 20px 0 10px;">Email opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 19px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 20px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 16px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+
+											</div>
+										</div>
+									</div>
+								</span>
+							</span>
+								<span class="circle circle2 Email">2</span>
+								<span class="circle circle3">3</span>
+								<span class="circle circle4">4</span>
+								<div class="information">
+									<span class="info ">Invite</span>
+									<span class="info " style="padding-left:15px;">Email</span>
+									<span class="info">Password</span>
+									<span class="info">Login</span>
+								</div>
+							</div>
+						</td>
+						<td width="20" nowrap>
+							<div class="content"><img class="threeDots" src="./img/ellipses.svg" height="15">
+								<div class="dotsDetail d-none">
+									<div class="dotsData">
+										<div class="box">
+
+											<div class="row row1">
+												<img src="./img/pencil.svg" alt="pencil">
+												<span>Edit</span>
+											</div>
+
+											<div class="row row2">
+												<img src="./img/Refresh.svg" alt="Refresh">
+												<span>Reinvite</span>
+											</div>
+							
+											<div class="row row3">
+												<img src="./img/trash.svg" alt="trash">
+												<span style="color:#C82027;">Remove</span>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+
+					</tr>
+					<!-- <div class="box">
+					
+					<div class="row row1">
+					<img src="./img/pencil.svg" alt="pencil">
+					<span>Edit</span>
+				</div>
+					
+					<div class="row row2">
+					<img src="./img/Refresh.svg" alt="Refresh">
+					<span>Reinvite</span>
+					</div>
+					<hr>
+					<div class="row row3">
+					<img src="./img/trash.svg" alt="trash">
+					<span style="color:red;">Remove</span>
+				</div>
+				
+				</div> -->
+					<tr class="">
+						<!-- <td>
+					<label class="checkboxes">
+					  <input type="checkbox" checked>
+					  <span class="checkmark"></span>
+					</label>
+				</td> -->
+						<td style="padding-left: 20px;" >Pedro</td>
+						<td>adao</td>
+						<td>pma.adao@gmail.com</td>
+						<td>Testuser1</td>
+						<td><span class="">Agent</span></td>
+						<td>
+							<!-- <img src="./img/Tick Mark.svg" alt="tick"> -->
+							<div class="line"><span class="horizontal_line "></span>
+								<span class="horizontal_line"></span>
+								<span class="horizontal_line"></span>
+								<span class="circle circle1 active Invite"><img src="./img/Tick Mark.svg"
+										alt="tick">
+										<span class="NoOfNotifications">3</span>
+										<div class="inviteMain d-none">
+											<div class="inviteContent">
+												
+													
+	
+													<span class="Vline one"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													
+	
+													<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="" srcset=""></span>
+													<span class="circle inviteCircle2">2</span>
+													<span class="circle inviteCircle3">3</span>
+													<span class="circle inviteCircle4">4</span>
+													<span class="circle inviteCircle5">5</span>
+													<span class="circle inviteCircle6">6</span>
+													<span class="circle inviteCircle7">7</span>
+													<div class="content">
+														<div>
+														<span><h2 style="display: inline; margin: 10px 0;">Invite</h2></span><span style="width: 20px !important; height: 20px !important; margin-left: 5px; "class="circle close">3</span>
+														<span><img src="./img/arrow up.svg" alt=""></span>
+														
+													</div>
+														<div>
+															<b style="display:block; margin: 6px 0 5px;">Invited by:</b>
+															<span style="display:block; margin: 5px 0;">14. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">13. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">12. Pedro Adao 04/15/2022 5:10 PM</span>
+															
+															
+															
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 16px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 13px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 20px 0 10px;">Email opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 21px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 22px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 23px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+	
+	
+												</div>
+											</div>
+										</div>
+									</span>
+								<span class="circle circle2 Email">2</span>
+								<span class="circle circle3">3</span>
+								<span class="circle circle4">4</span>
+								<div class="information">
+									<span class="info">Invite
+										<div class="InviteInfo">
+											<span class="active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+
+										</div>
+									</span>
+									<span class="info" style="padding-left:15px;">Email
+
+									</span>
+
+									<span class="info">Password</span>
+									<span class="info">Login</span>
+								</div>
+							</div>
+						</td>
+						<td width="20" nowrap>
+							<div class="content"><img class="threeDots" src="./img/ellipses.svg" height="15">
+								<div class="dotsDetail d-none">
+									<div class="dotsData">
+										<div class="box">
+
+											<div class="row row1">
+												<img src="./img/pencil.svg" alt="pencil">
+												<span>Edit</span>
+											</div>
+											<div class="row row2">
+												<img src="./img/add-btn.svg" alt="Refresh">
+												<span>Add Associate</span>
+											</div>
+
+											<div class="row row2">
+												<img src="./img/Refresh.svg" alt="Refresh">
+												<span>Reinvite</span>
+											</div>
+											
+											<div class="row row3">
+												<img src="./img/trash.svg" alt="trash">
+												<span style="color:#C82027;">Remove</span>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+
+					</tr>
+
+					<tr class="">
+						<!-- <td>
+					<label class="checkboxes">
+					  <input type="checkbox" checked>
+					  <span class="checkmark"></span>
+					</label>
+				</td> -->
+						<td style="padding-left: 20px;" >John</td>
+						<td>Deo</td>
+						<td>example@gmail.com</td>
+						<td>Testuser1</td>
+						<td><span class="">Principal</span></td>
+						<td>
+							<div class="line"><span class="horizontal_line active"></span>
+								<span class="horizontal_line "></span>
+								<span class="horizontal_line"></span>
+								<span class="circle circle1 active Invite"><img src="./img/Tick Mark.svg"
+										alt="tick"><span class="NoOfNotifications">4</span>
+										<span class="NoOfNotifications">3</span>
+										<div class="inviteMain d-none">
+											<div class="inviteContent">
+												
+													
+	
+													<span class="Vline one"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													
+	
+													<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="" srcset=""></span>
+													<span class="circle inviteCircle2">2</span>
+													<span class="circle inviteCircle3">3</span>
+													<span class="circle inviteCircle4">4</span>
+													<span class="circle inviteCircle5">5</span>
+													<span class="circle inviteCircle6">6</span>
+													<span class="circle inviteCircle7">7</span>
+													<div class="content">
+														<div>
+														<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span><span style="width: 20px !important; height: 20px !important; margin-left: 5px; " class="circle close">3</span>
+														<span><img src="./img/arrow up.svg" alt=""></span>
+														</div>
+														<div>
+															<b style="display:block; margin: 6px 0 5px;">Invited by:</b>
+															<span style="display:block; margin: 5px 0;">14. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">13. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">12. Pedro Adao 04/15/2022 5:10 PM</span>
+															
+															
+															
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 16px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 13px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 20px 0 10px;">Email opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 21px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 22px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 23px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+	
+	
+												</div>
+											</div>
+										</div>
+									</span></span>
+										
+								<span class="circle circle2 active Email"><img src="./img/Tick Mark.svg"
+										alt="tick">
+										<!-- email itm strt -->
+										<div class="emailMain d-none">
+											<div class="emailContent">
+												
+													
+	
+													<span class="Vline one active" ></span>
+													<span class="Vline active"></span>
+													<span class="Vline active"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													
+	
+													<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+													<span class="circle inviteCircle2 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+													<span class="circle inviteCircle3 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+													<span class="circle inviteCircle4 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+													<span class="circle inviteCircle5">5</span>
+													<span class="circle inviteCircle6">6</span>
+													<span class="circle inviteCircle7">7</span>
+													<div class="content">
+														
+														<div>
+														<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span><span style="width: 20px !important; height: 20px !important; margin-left: 5px; " class="circle close">3</span>
+														<span><img src="./img/arrow up.svg" alt=""></span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 37px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 0px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 35px 0 -5px;">Email opened&nbsp; <img src="./img/arrow up.svg" alt=""></h2>
+															<p style="padding: 0;">4/15/2022, 6:26 PM</p>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 3px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 30px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 24px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+	
+												</div>
+											</div>
+										</div>
+									</span>
+									<!-- end email itm -->
+									
+									</span>
+								<span class="circle circle3">3</span>
+								<span class="circle circle4">4</span>
+								<div class="information">
+									<span class="info ">Invite</span>
+									<span class="info " style="padding-left:15px;">Email</span>
+									<span class="info">Password</span>
+									<span class="info">Login</span>
+								</div>
+							</div>
+						</td>
+						<td width="20" nowrap>
+							<div class="content">
+								<img class="threeDots" src="./img/ellipses.svg" height="15">
+								<div class="dotsDetail d-none">
+									<div class="dotsData">
+										<div class="box">
+
+											<div class="row row1">
+												<img src="./img/pencil.svg" alt="pencil">
+												<span>Edit</span>
+											</div>
+											<div class="row row1">
+												<img src="./img/add-btn.svg" alt="pencil">
+												<span>Add Associate</span>
+											</div>
+
+											<div class="row row2">
+												<img src="./img/Refresh.svg" alt="Refresh">
+												<span>Reinvite</span>
+											</div>
+											
+											<div class="row row3">
+												<img src="./img/trash.svg" alt="trash">
+												<span style="color:#C82027;">Remove</span>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="">
+						<td style="padding-left: 20px;" >John</td>
+						<td>Deo</td>
+						<td>example@gmail.com</td>
+						<td>Testuser1</td>
+						<td><span class="">Principal</span></td>
+						<td>
+							<div class="line"><span class="horizontal_line active"></span>
+								<span class="horizontal_line active"></span>
+								<span class="horizontal_line"></span>
+								<span class="circle circle1 active Invite"><img src="./img/Tick Mark.svg"
+										alt="tick"><span class="NoOfNotifications">3</span>
+										<span class="NoOfNotifications">3</span>
+										<div class="inviteMain d-none">
+											<div class="inviteContent">
+												
+													
+	
+													<span class="Vline one"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													
+	
+													<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="" srcset=""></span>
+													<span class="circle inviteCircle2">2</span>
+													<span class="circle inviteCircle3">3</span>
+													<span class="circle inviteCircle4">4</span>
+													<span class="circle inviteCircle5">5</span>
+													<span class="circle inviteCircle6">6</span>
+													<span class="circle inviteCircle7">7</span>
+													<div class="content">
+														<div>
+														<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span><span style="width: 20px !important; height: 20px !important; margin-left: 5px; " class="circle close">3</span>
+														<span><img src="./img/arrow up.svg" alt=""></span>
+														</div>
+														<div>
+															<b style="display:block; margin: 6px 0 5px;">Invited by:</b>
+															<span style="display:block; margin: 5px 0;">14. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">13. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">12. Pedro Adao 04/15/2022 5:10 PM</span>
+															
+															
+															
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 16px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 13px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 20px 0 10px;">Email opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 21px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 22px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 23px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+	
+	
+	
+												</div>
+											</div>
+										</div>
+									</span></span>
+									<!-- new panga
+									==
+								--
+							==
+						===
+					===
+				===
+			===
+		=-== -->
+								<span class="circle circle2 active Email"><img src="./img/Tick Mark.svg"
+										alt="tick">
+											<!-- email itm strt -->
+											<div class="emailMain d-none">
+												<div class="emailContent">
+													
+														
+		
+														<span class="Vline one active" ></span>
+														<span class="Vline active"></span>
+														<span class="Vline active"></span>
+														<span class="Vline"></span>
+														<span class="Vline"></span>
+														<span class="Vline"></span>
+														
+		
+														<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+														<span class="circle inviteCircle2 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+														<span class="circle inviteCircle3 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+														<span class="circle inviteCircle4 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+														<span class="circle inviteCircle5">5</span>
+														<span class="circle inviteCircle6">6</span>
+														<span class="circle inviteCircle7">7</span>
+														<div class="content">
+															
+															<div>
+															<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span><span style="width: 20px !important; height: 20px !important; margin-left: 5px; " class="circle close">3</span>
+															<span><img src="./img/arrow up.svg" alt=""></span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 37px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 0px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 35px 0 -5px;">Email opened&nbsp; <img src="./img/arrow up.svg" alt=""></h2>
+																<p style="padding: 0;">4/15/2022, 6:26 PM</p>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 3px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 30px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 24px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+		
+													</div>
+												</div>
+											</div>
+										</span>
+										<!-- end email itm -->
+									</span>
+								<span class="circle circle3 active password"><img src="./img/Tick Mark.svg" alt="tick">
+									<!-- password data start -->
+									<div class="passwordMain d-none">
+										<div class="passwordContent">
+											
+												
+
+												<span class="Vline one active" ></span>
+												<span class="Vline active"></span>
+												<span class="Vline active"></span>
+												<span class="Vline active"></span>
+												<span class="Vline active"></span>
+												<span class="Vline"></span>
+												
+
+												<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+												<span class="circle inviteCircle2 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+												<span class="circle inviteCircle3 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+												<span class="circle inviteCircle4 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+												<span class="circle inviteCircle5 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+												<span class="circle inviteCircle6 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+												<span class="circle inviteCircle7">7</span>
+												<div class="content">
+													
+													<div>
+													<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span>
+													
+													<span><img src="./img/Arrow-down.svg" alt=""></span>
+													</div>
+													
+													<div>
+														<span>
+														<h2 style="margin: 37px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 0px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 35px 0 -5px;">Email opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 40px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 30px 0 -5px;">Password set&nbsp; <img src="./img/arrow up.svg" alt=""></h2>
+														<p style="padding:0;">4/15/2022, 6:26 PM</p>
+													</span>
+													</div>
+													<div>
+														<span>
+														<h2 style="margin: 4px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													</span>
+													</div>
+
+											</div>
+										</div>
+									</div>
+								</span>
+								<!-- password data end-->
+								
+								</span>
+								<span class="circle circle4">4</span>
+								<div class="information">
+									<span class="info ">Invite</span>
+									<span class="info " style="padding-left:15px;">Email</span>
+									<span class="info">Password</span>
+									<span class="info">Login</span>
+								</div>
+							</div>
+						</td>
+						<td width="20" nowrap>
+							<div class="content"> <img class="threeDots" src="./img/ellipses.svg" height="15">
+								<div class="dotsDetail d-none">
+									<div class="dotsData">
+										<div class="box">
+
+											<div class="row row1">
+												<img src="./img/pencil.svg" alt="pencil">
+												<span>Edit</span>
+											</div>
+
+											<div class="row row2">
+												<img src="./img/Refresh.svg" alt="Refresh">
+												<span>Reinvite</span>
+											</div>
+											
+											<div class="row row3">
+												<img src="./img/trash.svg" alt="trash">
+												<span style="color:#C82027;">Remove</span>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="">
+					
+						<td style="padding-left: 20px;" >John</td>
+						<td>Deo</td>
+						<td>example@gmail.com</td>
+						<td>Testuser1</td>
+						<td><span class="">Principal</span></td>
+						<td>
+							<div class="line"><span class="horizontal_line active"></span>
+								<span class="horizontal_line"></span>
+								<span class="horizontal_line "></span>
+								<span class="circle circle1 active Invite"><img src="./img/Tick Mark.svg"
+										alt="tick"><span class="NoOfNotifications">3</span>
+										<span class="NoOfNotifications">3</span>
+										<div class="inviteMain d-none">
+											<div class="inviteContent">
+												
+													
+	
+													<span class="Vline one"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													
+	
+													<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="" srcset=""></span>
+													<span class="circle inviteCircle2">2</span>
+													<span class="circle inviteCircle3">3</span>
+													<span class="circle inviteCircle4">4</span>
+													<span class="circle inviteCircle5">5</span>
+													<span class="circle inviteCircle6">6</span>
+													<span class="circle inviteCircle7">7</span>
+													<div class="content">
+														<div>
+														<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span><span style="width: 20px !important; height: 20px !important; margin-left: 5px; " class="circle close">3</span>
+														<span><img src="./img/arrow up.svg" alt=""></span>
+														</div>
+														<div>
+															<b style="display:block; margin: 6px 0 5px;">Invited by:</b>
+															<span style="display:block; margin: 5px 0;">14. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">13. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">12. Pedro Adao 04/15/2022 5:10 PM</span>
+															
+															
+															
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 16px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 13px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 20px 0 10px;">Email opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 21px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 22px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 23px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+	
+	
+	
+	
+												</div>
+											</div>
+										</div>
+									</span></span>
+								<span class="circle circle2 close Email"><img src="./img/Close.svg" alt="tick">
+														<!-- email itm strt -->
+														<div class="emailMain d-none">
+															<div class="emailContent">
+<!-- close emailll========== -->
+																	<span class="Vline one active"></span>
+																	<span class="Vline"></span>
+																	<span class="Vline"></span>
+																	<span class="Vline"></span>
+																	<span class="Vline"></span>
+																	<span class="Vline"></span>
+																	
+					
+																	<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="" srcset=""></span>
+																	<span class="circle inviteCircle2 close"><img src="./img/Close.svg" alt=""></span>
+																	<span class="circle inviteCircle3">3</span>
+																	<span class="circle inviteCircle4">4</span>
+																	<span class="circle inviteCircle5">5</span>
+																	<span class="circle inviteCircle6">6</span>
+																	<span class="circle inviteCircle7">7</span>
+																	<div class="content">
+																		<div>
+																		<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> 
+																		
+																		<span> <img src="./img/Arrow-Down.svg" alt=""></span>
+																		
+																	</div>
+																	
+																		<div>
+																			<span>
+																			<h2 style="margin: 36px 0 22px;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt="">
+																				<div>
+																					<span style="display:block; margin: 3px 0 0; font-size: 12px !important;font-weight: normal;">Error Delivering Email</span>
+																				</div></h2>
+																		</span>
+																		
+																		</div>
+																		<div>
+																			<span>
+																			<h2 style="margin: 2px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+																		</span>
+																		</div>
+																		<div>
+																			<span>
+																			<h2 style="margin: 36px 0 10px;">Email Opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+																		</span>
+																		</div>
+																		<div>
+																			<span>
+																			<h2 style="margin: 30px 0 10px;">Email Clicked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+																		</span>
+																		</div>
+																		<div>
+																			<span>
+																			<h2 style="margin: 32px 0 10px;">Password Set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+																		</span>
+																		</div>
+																		<div>
+																			<span>
+																			<h2 style="margin: 28px 0 10px;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+																		</span>
+																		</div>
+					
+																</div>
+															</div>
+														</div>
+													</span>
+										
+								<span class="circle circle3">3</span>
+								<span class="circle circle4">4</span>
+								<div class="information">
+									<span class="info">Invite</span>
+									<span class="info" style="padding-left:15px;">Email</span>
+									<span class="info">Password</span>
+									<span class="info">Login</span>
+								</div>
+							</div>
+						</td>
+						<td width="20" nowrap>
+							<div class="content">
+								<img class="threeDots" src="./img/ellipses.svg" height="15">
+								<div class="dotsDetail d-none">
+									<div class="dotsData">
+										<div class="box">
+
+											<div class="row row1">
+												<img src="./img/pencil.svg" alt="pencil">
+												<span>Edit</span>
+											</div>
+											<div class="row row1">
+												<img src="./img/add-btn.svg" alt="pencil">
+												<span>Add Associate</span>
+											</div>
+
+											<div class="row row2">
+												<img src="./img/Refresh.svg" alt="Refresh">
+												<span>Reinvite</span>
+											</div>
+											
+											<div class="row row3">
+												<img src="./img/trash.svg" alt="trash">
+												<span style="color:#C82027;">Remove</span>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="">
+						<td style="padding-left: 20px;" >John</td>
+						<td>Deo</td>
+						<td>example@gmail.com</td>
+						<td>Testuser1</td>
+						<td><span class="">Principal</span></td>
+						<td>
+							<div class="line">
+								<span class="horizontal_line active"></span>
+								<span class="horizontal_line active"></span>
+								<span class="horizontal_line active"></span>
+								<span class="circle circle1 active Invite"><img src="./img/Tick Mark.svg"
+										alt="tick"><span class="NoOfNotifications">3</span>
+										<span class="NoOfNotifications">3</span>
+										<div class="inviteMain d-none">
+											<div class="inviteContent">
+												
+													
+	
+													<span class="Vline one"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													
+	
+													<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="" srcset=""></span>
+													<span class="circle inviteCircle2">2</span>
+													<span class="circle inviteCircle3">3</span>
+													<span class="circle inviteCircle4">4</span>
+													<span class="circle inviteCircle5">5</span>
+													<span class="circle inviteCircle6">6</span>
+													<span class="circle inviteCircle7">7</span>
+													<div class="content">
+														<div>
+														<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span><span style="width: 20px !important; height: 20px !important; margin-left: 5px; " class="circle close">3</span>
+														<span><img src="./img/arrow up.svg" alt=""></span>
+														</div>
+														<div>
+															<b style="display:block; margin: 6px 0 5px;">Invited by:</b>
+															<span style="display:block; margin: 5px 0;">14. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">13. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">12. Pedro Adao 04/15/2022 5:10 PM</span>
+															
+															
+															
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 16px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 13px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 20px 0 10px;">Email opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 21px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 22px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 23px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+	
+	
+	
+												</div>
+											</div>
+										</div>
+									</span>
+								<span class="circle circle2 active Email"><img src="./img/Tick Mark.svg"
+										alt="tick">
+											<!-- email itm strt -->
+											<div class="emailMain d-none">
+												<div class="emailContent">
+													
+														
+		
+														<span class="Vline one active" ></span>
+														<span class="Vline active"></span>
+														<span class="Vline active"></span>
+														<span class="Vline"></span>
+														<span class="Vline"></span>
+														<span class="Vline"></span>
+														
+		
+														<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+														<span class="circle inviteCircle2 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+														<span class="circle inviteCircle3 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+														<span class="circle inviteCircle4 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+														<span class="circle inviteCircle5">5</span>
+														<span class="circle inviteCircle6">6</span>
+														<span class="circle inviteCircle7">7</span>
+														<div class="content">
+															
+															<div>
+															<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span><span style="width: 20px !important; height: 20px !important; margin-left: 5px; " class="circle close">3</span>
+															<span><img src="./img/arrow up.svg" alt=""></span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 37px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 0px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 35px 0 -5px;">Email opened&nbsp; <img src="./img/arrow up.svg" alt=""></h2>
+																<p style="padding: 0;">4/15/2022, 6:26 PM</p>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 3px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 30px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+															<div>
+																<span>
+																<h2 style="margin: 24px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+															</span>
+															</div>
+		
+													</div>
+												</div>
+											</div>
+										</span>
+										<!-- end email itm -->
+									
+								<span class="circle circle3 active password"><img src="./img/Tick Mark.svg" alt="tick">
+								<!-- password data start -->
+								<div class="passwordMain d-none">
+									<div class="passwordContent">
+										
+											
+
+											<span class="Vline one active" ></span>
+											<span class="Vline active"></span>
+											<span class="Vline active"></span>
+											<span class="Vline active"></span>
+											<span class="Vline active"></span>
+											<span class="Vline"></span>
+											
+
+											<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle2 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle3 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle4 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle5 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle6 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle7">7</span>
+											<div class="content">
+												
+												<div>
+												<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span>
+												
+												<span><img src="./img/Arrow-down.svg" alt=""></span>
+												</div>
+												
+												<div>
+													<span>
+													<h2 style="margin: 37px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 0px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 35px 0 -5px;">Email opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 40px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 30px 0 -5px;">Password set&nbsp; <img src="./img/arrow up.svg" alt=""></h2>
+													<p style="padding:0;">4/15/2022, 6:26 PM</p>
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 4px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+												</span>
+												</div>
+
+										</div>
+									</div>
+								</div>
+							</span>
+							<!-- password data end-->
+								</span>
+								<span class="circle circle4 active login"><img src="./img/Tick Mark.svg" alt="tick">
+	<!-- ---------------------------login data start ------------------------->
+								<div class="loginMain d-none">
+									<div class="loginContent">
+										
+											
+
+											<span class="Vline one active" ></span>
+											<span class="Vline active"></span>
+											<span class="Vline active"></span>
+											<span class="Vline active"></span>
+											<span class="Vline active"></span>
+											<span class="Vline active"></span>
+											
+
+											<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle2 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle3 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle4 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle5 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle6 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<span class="circle inviteCircle7 active"><img src="./img/Tick Mark.svg" alt="tick"></span>
+											<div class="content">
+												
+												<div>
+												<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span>
+												
+												<span><img src="./img/Arrow-down.svg" alt=""></span>
+												</div>
+												
+												<div>
+													<span>
+													<h2 style="margin: 32px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 5px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 32px 0 -5px;">Email opened&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 38px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 30px 0 -5px;">Password set&nbsp; <img src="./img/arrow up.svg" alt=""></h2>
+													
+												</span>
+												</div>
+												<div>
+													<span>
+													<h2 style="margin: 40px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+													<div class="loginData">
+														<div class="statustext"  style="font-size: 11px; ">
+															<span class="active greentext">Agreed Term of services</span>
+															<span class="Statusdate">12/02/2022, 09:10 AM</span>
+															<span class="statusLogin">Last login:12/02/2022, 09:10 AM </span>
+														</div>
+													</div>
+												</span>
+												</div>
+
+										</div>
+									</div>
+								</div>
+							</span>
+							<!-- login data end-->	
+											</span>
+								<div class="information">
+									<span class="info ">Invite</span>
+									<span class="info " style="padding-left:15px;">Email</span>
+									<span class="info">Password</span>
+									<span class="info">Login</span>
+								</div>
+							</div>
+						</td>
+						<td width="20" nowrap>
+							<div class="content">
+								<img class="threeDots" src="./img/ellipses.svg" height="15">
+								<div class="dotsDetail d-none">
+									<div class="dotsData">
+										<div class="box">
+
+											<div class="row row1">
+												<img src="./img/pencil.svg" alt="pencil">
+												<span>Edit</span>
+											</div>
+											<div class="row row1">
+												<img src="./img/add-btn.svg" alt="pencil">
+												<span>Add Associate</span>
+											</div>
+
+											<div class="row row2">
+												<img src="./img/Refresh.svg" alt="Refresh">
+												<span>Reinvite</span>
+											</div>
+											<hr style="border: #e7e7e7 1px solid;" >
+											<div class="row row3">
+												<img src="./img/trash.svg" alt="trash">
+												<span style="color:#C82027;">Remove</span>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="">
+						<!-- <td>
+					<label class="checkboxes">
+					  <input type="checkbox" checked>
+					  <span class="checkmark"></span>
+					</label>
+				</td> -->
+						<td style="padding-left: 20px;" >John</td>
+						<td>Deo</td>
+						<td>example@gmail.com</td>
+						<td>Testuser1</td>
+						<td><span class="">Principal</span></td>
+						<td>
+							<div class="line"><span class="horizontal_line"></span>
+								<span class="horizontal_line"></span>
+								<span class="horizontal_line"></span>
+								<span class="circle circle1 Invite">1</span>
+								<span class="circle circle2 Email">2
+															<!-- email itm strt -->
+										<div class="emailMain d-none">
+											<div class="emailContent">
+												
+													
+	
+													<span class="Vline one active" ></span>
+													<span class="Vline active"></span>
+													<span class="Vline active"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													<span class="Vline"></span>
+													
+	
+													<span class="circle inviteCircle1 active"><img src="./img/Tick Mark.svg" alt="" srcset=""></span>
+													<span class="circle inviteCircle2 active">2</span>
+													<span class="circle inviteCircle3 active">3</span>
+													<span class="circle inviteCircle4 active">4</span>
+													<span class="circle inviteCircle5">5</span>
+													<span class="circle inviteCircle6">6</span>
+													<span class="circle inviteCircle7">7</span>
+													<div class="content">
+														
+														<div>
+														<span><h2 style="display: inline;  margin: 10px 0;">Invite</h2> </span><span style="width: 20px !important; height: 20px !important; margin-left: 5px; " class="circle close">3</span>
+														<span><img src="./img/arrow up.svg" alt=""></span>
+														</div>
+														<!-- <div>
+															<b style="display:block; margin: 6px 0 5px;">Invited by:</b>
+															<span style="display:block; margin: 5px 0;">14. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">13. Pedro Adao 04/15/2022 5:10 PM</span>
+															<span style="display:block; margin: 5px 0;">12. Pedro Adao 04/15/2022 5:10 PM</span>
+															
+															
+															
+														</div> -->
+														<div>
+															<span>
+															<h2 style="margin: 37px 0;">Email sent&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 0px 0 10px;">Email Delivered&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 35px 0 -5px;">Email opened&nbsp; <img src="./img/arrow up.svg" alt=""></h2>
+															<p>4/15/2022, 6:26 PM</p>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 3px 0 10px;">Email Checked&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 30px 0 10px;">Password set&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+														<div>
+															<span>
+															<h2 style="margin: 24px 0 10px;">Login&nbsp; <img src="./img/Arrow-Down.svg" alt=""></h2>
+														</span>
+														</div>
+	
+												</div>
+											</div>
+										</div>
+									</span>
+									<!-- end email itm -->
+								
+								<span class="circle circle3">3</span>
+								<span class="circle circle4">4</span>
+								<div class="information">
+									<span class="info ">Invite</span>
+									<span class="info " style="padding-left:15px;">Email</span>
+									<span class="info">Password</span>
+									<span class="info">Login</span>
+								</div>
+							</div>
+						</td>
+						<td width="20" nowrap> 
+							<div class="content">
+								<img class="threeDots" src="./img/ellipses.svg" height="15">
+								<div class="dotsDetail d-none">
+									<div class="dotsData">
+										<div class="box">
+
+											<div class="row row1">
+												<img src="./img/pencil.svg" alt="pencil">
+												<span>Edit</span>
+											</div>
+
+											<div class="row row2">
+												<img src="./img/Refresh.svg" alt="Refresh">
+												<span>Reinvite</span>
+											</div>
+											
+											<div class="row row3">
+												<img src="./img/trash.svg" alt="trash">
+												<span style="color:#C82027;">Remove</span>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="">
+						<!-- <td>
+					<label class="checkboxes">
+					  <input type="checkbox" checked>
+					  <span class="checkmark"></span>
+					</label>
+				</td> -->
+						<td style="padding-left: 20px;">John</td>
+						<td>Deo</td>
+						<td>example@gmail.com</td>
+						<td>Testuser1</td>
+						<td><span class="">Principal</span></td>
+						<td>
+							<div class="line" style="
+    top: 12px !important;">
+								<!-- <span class="horizontal_line"></span>
+						<span class="horizontal_line"></span>
+						<span class="horizontal_line"></span>
+					<span class="circle circle1 Invite">1</span>
+					<span class="circle circle2  Email">2</span>
+					<span class="circle circle3">3</span>
+					<span class="circle circle4">4</span>
+					<div class="information">
+					<span class="info ">Invite</span>
+					<span class="info">Email</span>
+					<span class="info">Password</span>
+					<span class="info">Login</span>
+				</div> -->
+
+								<div class="statustext"  style="font-size: 11px; ">
+									<span class="active greentext">Agreed Term of services</span>
+									<span class="Statusdate">12/02/2022, 09:10 AM</span>
+									<span class="statusLogin">Last login:12/02/2022, 09:10 AM </span>
+								</div>
+							</div>
+						</td>
+						<td width="20" nowrap> 
+							<div class="content">
+								<img class="threeDots" src="./img/ellipses.svg" height="15">
+								<div class="dotsDetail d-none">
+									<div class="dotsData">
+										<div class="box">
+
+											<div class="row row1">
+												<img src="./img/pencil.svg" alt="pencil">
+												<span>Edit</span>
+											</div>
+
+											<div class="row row2">
+												<img src="./img/Refresh.svg" alt="Refresh">
+												<span>Reinvite</span>
+											</div>
+											
+											<div class="row row3">
+												<img src="./img/trash.svg" alt="trash">
+												<span style="color:#C82027;">Remove</span>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="">
+						<!-- <td>
+					<label class="checkboxes">
+					  <input type="checkbox" checked>
+					  <span class="checkmark"></span>
+					</label>
+				</td> -->
+						<td style="padding-left: 20px;" >John</td>
+						<td>Deo</td>
+						<td>example@gmail.com</td>
+						<td>Testuser1</td>
+						<td><span class="">Principal</span></td>
+						<td>
+							<div class="line"><span class="horizontal_line"></span>
+								<span class="horizontal_line"></span>
+								<span class="horizontal_line"></span>
+								<span class="circle circle1 Invite">1</span>
+								<span class="circle circle2 Email">2</span>
+								<span class="circle circle3">3</span>
+								<span class="circle circle4">4</span>
+								<div class="information">
+									<span class="info ">Invite</span>
+									<span class="info " style="padding-left:15px;">Email</span>
+									<span class="info">Password</span>
+									<span class="info">Login</span>
+								</div>
+							</div>
+						</td>
+						<td width="20" nowrap> 
+							<div class="content">
+								<img class="threeDots" src="./img/ellipses.svg" height="15">
+								<div class="dotsDetail d-none">
+									<div class="dotsData">
+										<div class="box">
+
+											<div class="row row1">
+												<img src="./img/pencil.svg" alt="pencil">
+												<span>Edit</span>
+											</div>
+
+											<div class="row row2">
+												<img src="./img/Refresh.svg" alt="Refresh">
+												<span>Reinvite</span>
+											</div>
+											
+											<div class="row row3">
+												<img src="./img/trash.svg" alt="trash">
+												<span style="color:#C82027;">Remove</span>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+<!-- </div> -->
+	<script src="index.js"></script>
+</body>
+
+</html>
